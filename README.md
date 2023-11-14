@@ -38,9 +38,7 @@ Run the following commands one after the other:
 
 `sudo apt-get install gnupg curl`
 
-`curl -fsSL https://pgp.mongodb.com/server-7.0.asc | \
-sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
---dearmor`
+`curl -fsSL https://pgp.mongodb.com/server-7.0.asc | \sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \--dearmor`
 
 If you get a warning to overwrite the configuration file, press Y
 
